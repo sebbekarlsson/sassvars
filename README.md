@@ -7,11 +7,11 @@
     from sassvars import get_sass_variables
 
     doc = """
-    $color: "red";
-    $color_two: 'green';
+    $color: red;
+    $color_two: green;
     $background_color: #81ecec;
     $width: 640px;
-    $height: 640px;     $background_other: "white";
+    $height: 640px;     $background_other: white;
     """
 
     variables = get_sass_variables(doc)
