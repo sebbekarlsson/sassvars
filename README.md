@@ -23,7 +23,11 @@
 > That's it!
 
 ## Install
-> To install, clone down this repository and run:
+> Run:
+
+    pip install sassvars
+
+> OR clone down this repository and run:
 
     python setup.py install
 
