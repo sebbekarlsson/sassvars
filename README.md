@@ -16,7 +16,7 @@
 
     variables = get_sass_variables(doc)
 
-> `variables` will not contain a dictionary:
+> `variables` will now contain a dictionary:
 
     assert variables['color'] == 'red' # true
 
